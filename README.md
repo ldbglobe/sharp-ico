@@ -1,11 +1,11 @@
-# sharp-ico
+# sharp-ico-v32
 
 ICO encoder and decoder for [sharp](https://www.npmjs.com/package/sharp) base on [ico-endec](https://www.npmjs.com/package/ico-endec) (for encode) and [decode-ico](https://www.npmjs.com/package/decode-ico) (for decode).
 
 ## Install
 
 ```bash
-npm install sharp-ico
+npm install sharp-ico-v32
 ```
 
 ## Usage
@@ -21,7 +21,7 @@ npm install sharp-ico
 Returns `Sharp[] | ImageData[]` - Return an array of instance of sharp or Object containing `image` (instance of sharp) property and [decoding info](#decodinginfo).
 
 ```js
-const ico = require("sharp-ico");
+const ico = require("sharp-ico-v32");
 
 ico
   .sharpsFromIco("input.ico", {
@@ -57,7 +57,7 @@ Returns `Promise<Object>` - Resolve with an Object containing `size`, `width`, `
 
 ```js
 const sharp = require("sharp");
-const ico= require("sharp-ico");
+const ico= require("sharp-ico-v32");
 const bmp = require("sharp-bmp"); // if need to write bmp icons
 
 ico
@@ -112,7 +112,7 @@ The format of the `data` parameter depends on the `type` of image. When the imag
 ```js
 const fs = require("fs");
 const sharp = require("sharp");
-const ico = require("sharp-ico");
+const ico = require("sharp-ico-v32");
 
 const buffer = fs.readFileSync("input.ico");
 const icons = ico.decode(buffer);
@@ -142,7 +142,7 @@ Returns `Buffer` - Return a buffer containing ICO image data.
 ```js
 const fs = require("fs");
 const sharp = require("sharp");
-const ico = require("sharp-ico");
+const ico = require("sharp-ico-v32");
 const bmp = require("sharp-bmp"); // if need to write bmp icons
 
 (async () => {

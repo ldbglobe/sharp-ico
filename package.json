@@ -34,7 +34,7 @@
   "dependencies": {
     "decode-ico": "*",
     "ico-endec": "*",
-  }
+  },
   "peerDependencies": {
     "sharp": "0.32.*"
   }

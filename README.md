@@ -1,5 +1,7 @@
 # sharp-ico-v32
 
+**Modded version to limit Sharp usage of version 0.32.x**
+
 ICO encoder and decoder for [sharp](https://www.npmjs.com/package/sharp) base on [ico-endec](https://www.npmjs.com/package/ico-endec) (for encode) and [decode-ico](https://www.npmjs.com/package/decode-ico) (for decode).
 
 ## Install

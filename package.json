@@ -1,5 +1,5 @@
 {
-  "name": "sharp-ico",
+  "name": "sharp-ico-v32",
   "version": "0.1.5",
   "description": "ICO encoder and decoder for sharp base on ico-endec.",
   "scripts": {

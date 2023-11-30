@@ -29,11 +29,13 @@
     "LICENSE"
   ],
   "devDependencies": {
-    "@types/sharp": "^0.32.*"
+    "@types/sharp": "0.32.*"
   },
-  "peerDependencies": {
+  "dependencies": {
     "decode-ico": "*",
     "ico-endec": "*",
+  }
+  "peerDependencies": {
     "sharp": "0.32.*"
   }
 }
